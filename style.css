@@ -1,0 +1,116 @@
+.heroimg {
+    background-image: url(cakecakecake.jpg);
+    background-size: cover;
+}
+
+.text-mary {
+    color: #a5c1d1;
+}
+
+.btn-mary {
+    background-color: rgb(165, 193, 209);
+    color: #fff;
+}
+.btn-mary:hover {
+    background-color: rgb(165, 193, 209);
+    color: #fff;
+}
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the login form */
+.login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for form groups (username and password) */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for login button */
+.login-button {
+    background-color: #a8d0e2; /* 水藍色 */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #73abbd; /* 深色水藍色 */
+}
+.card {
+    transition: all .4s; /* 動畫漸變 */
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px #ddd; /* 往右移5px、下移5px、模糊5px、陰影的顏色 */
+    transform: translate(-5px, -5px) rotate(-1deg); /* 往左移5px、上移5px、逆時針旋轉1度 */
+}
+.btn-primary {
+    background-color: rgb(165, 193, 209);
+    border-color: rgb(165, 193, 209);
+    color: #fff;}
+
+body {
+        background-color: #a5c1d1; /* 这里替换为你想要的背景颜色代码 */
+    }
+
+.button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-left: 660px;
+        background-color: #eef2f6; /* 按钮默认背景色为深蓝色 */
+        color: #141414; /* 按钮文字颜色为白色 */
+        text-decoration: none; /* 移除链接默认的下划线 */
+        border: none; /* 移除按钮边框 */
+        border-radius: 5px; /* 圆角边框 */
+        transition: background-color 0.3s ease; /* 添加过渡效果 */
+    }
+    
+.button:hover {
+        background-color: #486f92; /* 鼠标悬停时按钮背景色为淡蓝色 */
+    }
+    
+.button:active {
+        transform: translateY(1px); /* 点击按钮时向下移动1像素 */
+    }
+    
+    /* 如果是链接按钮，可以添加以下样式 */
+.button:focus {
+        outline: none; /* 移除按钮获得焦点时的默认样式 */
+    }
